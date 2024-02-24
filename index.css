@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    min-height: 100vh;
+    min-width: 50vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    margin-top: 0%;
+    margin-inline: auto;
+}
+#principal{
+    width: 384px;
+    height: 610px;
+    display: block;
+    text-align: center;
+
+    padding: 37px;
+    margin-bottom: 25px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+/*The Header principal*/
+#head img{
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#head h1{
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 23px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#head h2{
+    font-family: "Inter", sans-serif;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+
+    margin-bottom: 40px;
+}
+
+#head  p{
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+
+}
+
+/*list*/
+
+#items ul{
+    
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding: 24px 0;
+}
+
+#items ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: backgroud .2s;
+}
+
+#items a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
