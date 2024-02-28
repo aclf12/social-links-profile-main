@@ -9,7 +9,7 @@ body{
     color: hsl(0, 0%, 100%);
     text-align: center;
     min-height: 100vh;
-    min-width: 50vh;
+    min-width: 50vw;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ body{
     margin-inline: auto;
 }
 #principal{
-    width: 384px;
+    width: 360px;
     height: 610px;
     display: block;
     text-align: center;
